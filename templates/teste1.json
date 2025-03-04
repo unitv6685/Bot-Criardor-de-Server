@@ -1,0 +1,34 @@
+{
+  "roles": [
+    { "name": "Dono da Transportadora", "color": "#ff0000", "permissions": "admin" },
+    { "name": "Gerente da Transportadora", "color": "#ff7f00", "permissions": "manage" },
+    { "name": "Coordenador de Comboios", "color": "#ffff00", "permissions": "kick" },
+    { "name": "Supervisor de Frota", "color": "#00ff00", "permissions": "mute" },
+    { "name": "Caminhoneiro Profissional", "color": "#00ffff", "permissions": "speak" },
+    { "name": "Caminhoneiro Júnior", "color": "#0000ff", "permissions": "read" },
+    { "name": "Autônomo", "color": "#8000ff", "permissions": "read" },
+    { "name": "Mecânico", "color": "#ff0080", "permissions": "send" },
+    { "name": "Instrutor", "color": "#808080", "permissions": "send" },
+    { "name": "Criador de Conteúdo", "color": "#ff80c0", "permissions": "stream" },
+    { "name": "DJ da Estrada", "color": "#ffff80", "permissions": "speak" },
+    { "name": "Parceiro", "color": "#008080", "permissions": "read" },
+    { "name": "Passageiro", "color": "#c0c0c0", "permissions": "read" }
+  ],
+  "channels": [
+    { "name": "📜 Regras-do-Servidor", "type": "text" },
+    { "name": "🚦 Normas-de-Comboio", "type": "text" },
+    { "name": "📝 Lista-de-Cargos", "type": "text" },
+    { "name": "📢 Anúncios", "type": "text" },
+    { "name": "🛞 Conversa-dos-Caminhoneiros", "type": "text" },
+    { "name": "🏁 Planejamento-de-Comboios", "type": "text" },
+    { "name": "📦 Entregas-e-Rotas", "type": "text" },
+    { "name": "📷 Galeria-de-Viagens", "type": "text" },
+    { "name": "🤝 Parcerias", "type": "text" },
+    { "name": "🚛 Comboio em Andamento", "type": "voice" },
+    { "name": "🎵 Música na Estrada", "type": "voice" },
+    { "name": "🏁 Esperando Comboio", "type": "voice" },
+    { "name": "🛠️ Suporte Técnico", "type": "voice" },
+    { "name": "📌 Sala-da-Administração", "type": "text", "private": true },
+    { "name": "📝 Registros-de-Penalizações", "type": "text", "private": true }
+  ]
+}
